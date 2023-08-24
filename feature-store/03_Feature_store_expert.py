@@ -412,7 +412,7 @@ print("Accuracy: ", accuracy_score(pd_scoring["purchased"], pd_scoring["predicti
 # MAGIC Databricks support different backend. In this demo, we'll show you how to setup 2 databases:
 # MAGIC
 # MAGIC * AWS dynamoDB ([doc](https://docs.databricks.com/machine-learning/feature-store/online-feature-stores.html))
-# MAGIC * Azure cosmosDB [doc](https://learn.microsoft.com/en-us/azure/databricks/machine-learning/feature-store/online-feature-stores)
+# MAGIC * Azure cosmosDB ([doc](https://learn.microsoft.com/en-us/azure/databricks/machine-learning/feature-store/online-feature-stores))
 # MAGIC
 # MAGIC
 # MAGIC **Important note for Azure users:** please make sure you have installed [Azure Cosmos DB Apache Spark 3 OLTP Connector for API for NoSQL](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/sdk-java-spark-v3) (i.e. `com.azure.cosmos.spark:azure-cosmos-spark_3-2_2-12:4.17.2`) to your cluster before running this demo.
